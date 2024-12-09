@@ -1,0 +1,17 @@
+﻿#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    string std;
+    string name;
+
+    cout << "학번 : ";
+    cin >> std;
+    cout << "이름 : ";
+    cin >> name;
+
+    cout << "당신의 학번은" << std << "," << "이름은" << name << "입니다." << endl;
+}
+
